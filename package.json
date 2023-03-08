@@ -1,0 +1,20 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "a social network api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boy-son/social-network-api.git"
+  },
+  "author": "boy-son",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boy-son/social-network-api/issues"
+  },
+  "homepage": "https://github.com/boy-son/social-network-api#readme"
+}
