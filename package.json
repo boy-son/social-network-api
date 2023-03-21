@@ -17,11 +17,10 @@
     "url": "https://github.com/boy-son/social-network-api/issues"
   },
   "homepage": "https://github.com/boy-son/social-network-api#readme",
-
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.25",
-    "nodemon": "^2.0.4",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.4"
   }
 }
