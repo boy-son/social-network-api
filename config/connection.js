@@ -1,7 +1,12 @@
 const { connect, connection } = require('mongoose');
 
-const connectionString =
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/socialDB';
+const dotenv = require('dotenv');
+const mongoose = require('mongoose');
+dotenv.config();
+
+mongoose.set('strictQuery', true);
+
+const connectionString = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/socialDB';
 
 connect(connectionString, {
   useNewUrlParser: true,

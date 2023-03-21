@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/boy-son/social-network-api#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "moment": "^2.29.1",
     "mongoose": "^6.9.2",
